@@ -2,6 +2,7 @@ import {useState} from "react"
 import {useNavigate} from "react-router-dom"
 import  Data  from "./data";
 import { InputField,Mylabel } from "../component/style";
+import { Header } from "../module";
 const Login =()=>{
     const [users,setUsers] =useState(
         {
@@ -25,6 +26,7 @@ const Login =()=>{
     }
     return(
         <>
+        <Header/>
              <div>
              <Mylabel>Name</Mylabel>
              <InputField type="text" id="name" placeholder="Enter Username" onChange={HandleChange}/>  
