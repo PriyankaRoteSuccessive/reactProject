@@ -1,9 +1,8 @@
 import { DashHead } from "../component/style";
-import {MyButton} from "../component/index";
+import { MyButton} from "../component/index";
 import { Header } from "../module/index";
 import { Counter,Timer, Timer20} from "../component/index";
-
-const Dashboard = () =>{
+ const Dashboard = () =>{
     return(
         <>
         <Header/>
@@ -12,9 +11,7 @@ const Dashboard = () =>{
         <Counter/>
         <Timer/>
         <Timer20/>
-        </>
-        
+        </>  
     )
 }
-
 export default Dashboard;

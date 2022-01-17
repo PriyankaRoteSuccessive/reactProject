@@ -3,12 +3,9 @@ import { HeaderWrapper,ImgHolder,HeadTexts,BioSection,BioList,MyArticle,ArticleH
 const aboutUsPage =(props)=>{
     console.log("data in about us",props.data)
 return(
-   
     <div className="wrapper">
-  
         <Header/>
          <HeaderWrapper>
-           
            <ImgHolder>
            <img src="/image.png" alt="image"/>
            <p>{props.data.eid}</p>
@@ -33,10 +30,8 @@ return(
                     He teaches International and EU Business Law in France and non-EU countries. Fotis is the Special Counsel for the Greek National Broadcaster (ERT) and a member of the Legal Committee of European Broadcasting Union. He also consults foreign governments (Balkans, Asia, Africa) on international law and foreign investment matters. 
                   <br/><br/> His extensive experience covers all matters on Corporate and Business Law, European Union Law, International transactions, Intellectual Property (IP) Law, Media Law, Human Rights and Justice Reform, foreign investments and public procurement.</p>
            </MyArticle>
-       </BioSection> */}
-       
+       </BioSection> */}  
     </div>
 )
 }
-
 export default aboutUsPage;
